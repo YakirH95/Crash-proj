@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: d2bfb7be713a1422bbeae716fc662f8b
+timeCreated: 1493186128
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Chest
+    100004: IK
+    100006: Kiwi 1
+    100008: L_Ankle
+    100010: L_Head_01
+    100012: L_Head_02
+    100014: L_Head_Ctrl
+    100016: L_Hip
+    100018: L_Knee
+    100020: L_Knee_Ctrl
+    100022: L_Leg_Ctrl
+    100024: L_Leg_IK
+    100026: L_Toe
+    100028: R_Ankle
+    100030: R_Head_01
+    100032: R_Head_02
+    100034: R_Head_Ctrl
+    100036: R_Hip
+    100038: R_Knee
+    100040: R_Knee_Ctrl
+    100042: R_Leg_Ctrl
+    100044: R_Leg_IK
+    100046: R_Toe
+    100048: Root
+    100050: Root_Ctrl
+    100052: Tummy
+    100054: World_Ctrl
+    400000: //RootNode
+    400002: Chest
+    400004: IK
+    400006: Kiwi 1
+    400008: L_Ankle
+    400010: L_Head_01
+    400012: L_Head_02
+    400014: L_Head_Ctrl
+    400016: L_Hip
+    400018: L_Knee
+    400020: L_Knee_Ctrl
+    400022: L_Leg_Ctrl
+    400024: L_Leg_IK
+    400026: L_Toe
+    400028: R_Ankle
+    400030: R_Head_01
+    400032: R_Head_02
+    400034: R_Head_Ctrl
+    400036: R_Hip
+    400038: R_Knee
+    400040: R_Knee_Ctrl
+    400042: R_Leg_Ctrl
+    400044: R_Leg_IK
+    400046: R_Toe
+    400048: Root
+    400050: Root_Ctrl
+    400052: Tummy
+    400054: World_Ctrl
+    4300000: Kiwi
+    7400000: Idle
+    9500000: //RootNode
+    13700000: Kiwi 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 73
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kiwi 1
+        weight: 1
+      - path: World_Ctrl
+        weight: 1
+      - path: World_Ctrl/IK
+        weight: 1
+      - path: World_Ctrl/IK/L_Leg_IK
+        weight: 1
+      - path: World_Ctrl/IK/R_Leg_IK
+        weight: 1
+      - path: World_Ctrl/L_Leg_Ctrl
+        weight: 1
+      - path: World_Ctrl/R_Leg_Ctrl
+        weight: 1
+      - path: World_Ctrl/Root
+        weight: 1
+      - path: World_Ctrl/Root/Chest
+        weight: 1
+      - path: World_Ctrl/Root/Chest/L_Head_01
+        weight: 1
+      - path: World_Ctrl/Root/Chest/L_Head_01/L_Head_02
+        weight: 1
+      - path: World_Ctrl/Root/Chest/R_Head_01
+        weight: 1
+      - path: World_Ctrl/Root/Chest/R_Head_01/R_Head_02
+        weight: 1
+      - path: World_Ctrl/Root/Tummy
+        weight: 1
+      - path: World_Ctrl/Root/Tummy/L_Hip
+        weight: 1
+      - path: World_Ctrl/Root/Tummy/L_Hip/L_Knee
+        weight: 1
+      - path: World_Ctrl/Root/Tummy/L_Hip/L_Knee/L_Ankle
+        weight: 1
+      - path: World_Ctrl/Root/Tummy/L_Hip/L_Knee/L_Ankle/L_Toe
+        weight: 1
+      - path: World_Ctrl/Root/Tummy/R_Hip
+        weight: 1
+      - path: World_Ctrl/Root/Tummy/R_Hip/R_Knee
+        weight: 1
+      - path: World_Ctrl/Root/Tummy/R_Hip/R_Knee/R_Ankle
+        weight: 1
+      - path: World_Ctrl/Root/Tummy/R_Hip/R_Knee/R_Ankle/R_Toe
+        weight: 1
+      - path: World_Ctrl/Root_Ctrl
+        weight: 1
+      - path: World_Ctrl/Root_Ctrl/L_Head_Ctrl
+        weight: 1
+      - path: World_Ctrl/Root_Ctrl/L_Knee_Ctrl
+        weight: 1
+      - path: World_Ctrl/Root_Ctrl/R_Head_Ctrl
+        weight: 1
+      - path: World_Ctrl/Root_Ctrl/R_Knee_Ctrl
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
